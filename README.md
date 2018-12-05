@@ -32,6 +32,13 @@ editer le pom du back.
 
 mvn clean install
 
+# BDD
+## h2 in-memory
+		https://dzone.com/articles/integrate-h2-database-in-your-spring-boot-applicat
+
+## Exemple de Data init	avec @Controller
+	https://o7planning.org/fr/11893/integration-de-spring-spring-jpa-et-h2-database
+
 # Spring
 
 ## profile activation de composant ou autre
