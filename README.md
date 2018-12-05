@@ -31,3 +31,44 @@ editer le pom du back.
 ### Builder l'ensemble
 
 mvn clean install
+
+# Spring
+
+## profile activation de composant ou autre
+	https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-profiles.html
+
+		@Configuration
+		@Profile("production")
+		public class ProductionConfiguration {
+
+			// ...
+
+		}
+
+		spring.profiles.active=dev,hsqldb
+
+## Annotation
+	### Cores
+		https://www.baeldung.com/spring-core-annotations
+
+	### Web
+		https://www.baeldung.com/spring-mvc-annotations
+
+	### Spring Boot
+		https://www.baeldung.com/spring-boot-annotations
+
+	### Security Basic Auth
+		Exemple
+		https://www.baeldung.com/spring-boot-security-autoconfiguration
+
+		Get User info
+		https://www.baeldung.com/get-user-in-spring-security
+
+## ANNEXES
+git creation tag
+git tag -a v1.1 -m "version avec packaging"
+git push origin v1.1
+
+.gitignore
+cf. https://fr.atlassian.com/git/tutorials/saving-changes/gitignore
+
