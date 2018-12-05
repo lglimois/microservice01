@@ -1,0 +1,8 @@
+<h1>Greeting</h1>
+<div [hidden]="!authenticated()">
+  <p>Autheur: <span>{{data['author']}}</span></p>
+  <p>Titre: <span>{{data['title']}}</span></p>
+</div>
+<div [hidden]="authenticated()">
+	<p>Login to see your greeting</p>
+</div>

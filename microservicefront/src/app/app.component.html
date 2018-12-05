@@ -1,0 +1,16 @@
+<div style="text-align:center"class="container">
+  <h1>
+    Book: {{title}}!
+  </h1>
+  <div class="container">
+    <p>Autheur: <span>{{data['author']}}</span></p>
+    <p>Titre: <span>{{data['title']}}</span></p>
+  </div>
+</div>
+<div style="text-align:center"class="container">
+  <!--<form>
+  <input type="button" value="Google" onclick="window.location.href='{{lienappli}}'" />
+  </form>-->
+  <button (click)="onNavigate()">Google</button>
+  <a href="{{lienappli}}" target="_blank">Go to Google</a>
+</div>
