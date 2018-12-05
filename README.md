@@ -5,6 +5,12 @@ Projet pour tester les microservices
 ## Appel Service REST depuis le back
 cf. https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-resttemplate.html
 
+Classr Wrapper List
+cf. https://www.baeldung.com/spring-rest-template-list
+
+cf. exemple implementé https://stackoverflow.com/questions/23674046/get-list-of-json-objects-with-spring-resttemplate
+
+
 ## Building jar including Angular client
 
 ### configurer front pour proxyfier le back
