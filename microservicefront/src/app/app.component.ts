@@ -12,7 +12,7 @@ export class AppComponent {
   lienappli = 'http://www.google.com';
   //data = {'author': 'john', 'title': 'doe'};
   constructor(private http: HttpClient) {
-    http.get('http://localhost:8080/book').subscribe(data => this.data = data);
+    http.get('api/book').subscribe(data => this.data = data);
 
     console.log('reload');
   }

@@ -16,7 +16,7 @@ import fr.sh.microserviceback.dto.Book;
 @RestController
 public class BookController {
 
-	@RequestMapping("/books")
+	@RequestMapping("/api/books")
 	public List getBooks() {
 
 		List list = new ArrayList<>();
@@ -36,14 +36,14 @@ public class BookController {
 //		return model;
 //	}
 
-	@RequestMapping("/book")
+	@RequestMapping("/api/book")
 	public Book getBook() {
 
 		Book book = new Book("john" , "doe" );
 		return book;
 	}
 
-	@RequestMapping("/user")
+	@RequestMapping("/api/user")
 	  public Principal user(Principal user) {
 	    return user;
 	  }
