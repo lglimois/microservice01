@@ -85,3 +85,10 @@ git push origin v1.1
 .gitignore
 cf. https://fr.atlassian.com/git/tutorials/saving-changes/gitignore
 
+# Gestion des logs
+https://www.mkyong.com/spring-boot/spring-boot-slf4j-logging-example/
+https://www.mkyong.com/logging/logback-xml-example/
+
+# Enregistrement
+Eureka
+Spring boot admin
