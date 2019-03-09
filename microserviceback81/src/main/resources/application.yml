@@ -2,21 +2,38 @@ server:
   port: 8081
 
 spring:
+  application:
+    name: microservice01
   profiles:
 #    active: production
     active: dev
+
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: "This is my first spring boot application"
+    version: "1.0.0-SNAPSHOT"
     
 #Eureka
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9102/eureka/
+  instance:
+    hostname: localhost
+    instanceId: localhost:${server.port}:${spring.application.name}
 
 management:
   endpoints: 
     web:
       exposure:
         include: "*"
+  server:
+    port: 8082
+    address: 127.0.0.1
        
 logging:
-  file: ./logs/sample-boot-application.log
+  path: ./logs
+  file: ${logging.path}/debug.log
+  

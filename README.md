@@ -90,5 +90,10 @@ https://www.mkyong.com/spring-boot/spring-boot-slf4j-logging-example/
 https://www.mkyong.com/logging/logback-xml-example/
 
 # Enregistrement
+Microservice 
+	avec admin decallage de port
 Eureka
+	https://o7planning.org/fr/11733/comprendre-spring-cloud-eureka-server-avec-un-exemple
 Spring boot admin
+	
+	

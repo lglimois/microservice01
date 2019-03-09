@@ -16,7 +16,14 @@ import fr.sh.microserviceback.dto.Collaborator;
 public class CollabController {
 
 	Logger logger = LoggerFactory.getLogger(CollabController.class);
-	
+
+	@RequestMapping("/")
+	public String getIndex() {
+		logger.info("Appel: /racine");
+		
+		return "{helloWorrld: \"coucou\"}";
+	}
+
 	@RequestMapping("/api/collaborator")
 	public List getCollab() {
 		logger.info("Appel: /api/collaborator");
