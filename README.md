@@ -76,9 +76,11 @@ mvn clean install
 
 		Get User info
 		https://www.baeldung.com/get-user-in-spring-security
-	### Data
+	### Data JPA
 		https://www.baeldung.com/spring-data-annotations
 		
+		Site sur les repository
+		https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
 
 ## ANNEXES
 git creation tag
