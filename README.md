@@ -76,6 +76,9 @@ mvn clean install
 
 		Get User info
 		https://www.baeldung.com/get-user-in-spring-security
+	### Data
+		https://www.baeldung.com/spring-data-annotations
+		
 
 ## ANNEXES
 git creation tag
